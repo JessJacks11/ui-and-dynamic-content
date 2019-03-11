@@ -1,0 +1,103 @@
+/*css reset*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+
+#shopping-list {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    max-width: 45rem;
+    width: 100%;
+    font-family: 'Dosis', Arial, sans-serif;   
+}
+
+div img {
+    display: block;
+    width: 200px;
+    margin: auto;
+    padding-top: 40px;
+    
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Sigmar One', Arial, cursive;
+    color: white;  
+    font-size: 3em;
+    margin-top: 45px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Sigmar One', Arial, cursive;
+    color: white;
+    font-size: 4em;
+    line-height: 1;
+}
+
+p {
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+input {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Dosis', Arial, sans-serif; 
+}
+
+button {
+    width: 80%;
+    background-color: #22c0f1;
+    border: none;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 45px;
+    font-family: 'Dosis', Arial, sans-serif; 
+    font-size: 1.2em;
+}
+
+li {
+    color: white;
+    margin-left: 50px;
+    list-style-image: url(../img/check-bullet.png);
+    width: 80%;
+    margin: auto;
+    font-size: 1.5em;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.error {
+    color: white;
+    margin: auto;
+    border: red double 6px;
+    padding: 10px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    width: 80%;
+    text-align: center;
+    display: none;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 10px;
+    padding-bottom: 60px;
+    margin-top: 50px;
+}
+
+a {
+  color: white;  
+}
